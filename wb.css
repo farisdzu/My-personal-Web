@@ -121,7 +121,13 @@
     padding: 100px;
     width: 40%;
     margin-top: 1px;
+    
 }
+.text-title span :hover {
+    
+}
+
+
 
 .text-title p span {
     color: #6886C5;
@@ -195,7 +201,8 @@
 
 
 .area-image{
-    margin-top: -30px;
+    margin-top: 45px;
+    margin-bottom: 50px;
     
 }
 
@@ -244,7 +251,9 @@
     font-size: 17px;
     color: #999999;
 }
-
+.area-me{
+   margin-top: 100px;
+}
 .button-ex {
     margin-top: 30px;
 }
@@ -341,7 +350,7 @@
     margin-top: 100px;
     width: 100vw;
     padding: 15px;
-    background-color: #000000;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -350,7 +359,7 @@
     padding-top: 40px;
 }
 .card-contact{
-    color: #ffffff;
+    color: #000000;
     margin-top: 60px;
     display: flex;
     flex-direction: row;
@@ -358,7 +367,7 @@
 
 
 .t-con{
-    color: #ffffff;
+    color: #000000;
     line-height: 30px;
     display: flex;
     justify-content: center;
@@ -418,32 +427,33 @@
 }
 .chat2 input{
     
-    background: none;
-    border: solid 1px #ffffff;
+    background: #f1f0f0;
+    border: none;
     margin: 5px;
     padding: 12px;
     width: 400px;
-   border-radius: 5px;
+
+   border-radius: 10px;
     
 }
 .chat2 textarea{
     font-family: poppins;
     margin: 5px;
-    background: none;
-    border: #ffffff 1px solid;
-    color: #000000;
-    border-radius: 5px;
-    padding: 12px;
+    background: #f1f0f0;
+    border: none;
+    color: #6a6a6a;
+    border-radius: 15px;
+    padding: 10px;
     width: 400px;
     
 }
 .chat2 button{
+    border: none;
     font-size: poppins;
-    background: none;
+    background: #000000;
     border-radius: 20px;
     margin-top: 30px;
     padding: 12px 150px;
-    color: rgb(255, 255, 255);
-    border: solid 1px #ffffff;
+    color: #ffffff;
 }
 
