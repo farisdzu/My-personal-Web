@@ -1,0 +1,110 @@
+/* Responsive */
+
+.nav-link {
+    display: inline;
+    margin-left: 20px;
+}
+.toggle{
+    display: none;
+}
+.nav-link a {
+    text-decoration: none;
+    
+}
+.toggle a i{
+    color: black;
+}
+.dropdown{
+    position: absolute;
+    background: #ffffff;
+    width: 40%;
+    left: 0;
+    top: 80px;
+    padding: 10px;
+    display: none;
+}
+.dropdown li {
+    list-style: none;
+}
+.dropdown li a{
+    text-decoration: none;
+
+}
+.toggle:hover .dropdown{
+    display: block;
+    
+}
+
+@media screen and (max-width:768px){
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .navbar-item{
+        display: none;
+    }
+    .hero{
+        display: flex;
+        height: none;
+        flex-direction: column-reverse;
+    }
+    
+    .toggle{
+        display: block;
+    }
+    .area-image{
+        margin-top: 100px;
+    }
+    .area-image img{
+        width: 450px;
+    }
+    .areatitle{
+        
+        width: 85%;
+        margin-top: 20px;
+    }
+    .aboutme{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutme img{
+        margin-top: 50px;
+        width: 450px;
+    }
+    .abm{
+        margin-top: 30%;
+        width: 85%;
+    }
+    .box-ex{
+        flex-direction: column;
+    }
+    .card-contact{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .left{
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+
+    
+}
+@media screen and (max-width:1031px){
+    .listitem a{
+        font-size: 13px;
+    }
+    .navbar-brand{
+        width: 20%;
+    }
+    .navbar-item{
+        margin-right: 50px;
+        width: 80%;
+    }
+    
+}
+
+

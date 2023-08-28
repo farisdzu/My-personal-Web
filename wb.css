@@ -1,0 +1,450 @@
+
+@import url('https://fonts.cdnfonts.com/css/vintage-3');
+@import url('https://fonts.cdnfonts.com/css/shoese-flower');
+@import url('https://fonts.cdnfonts.com/css/zumabo');
+@import url('https://fonts.cdnfonts.com/css/freedom45');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+.div1{
+    background-image: url(bag3\ \(1\).png);
+    background-size: cover;
+}
+
+.navbar-brand h3 span {
+    color: #6886C5;
+}
+
+.navbar {
+    
+    width: 100vw;
+    height: 10vh;
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.navbar-brand {
+
+    padding-left: 90px;
+    font-family: poppins;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+}
+
+.navbar-item {
+
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.listitem {
+    padding: 80px 20px;
+    font-family: poppins;
+}
+
+.listitem-1 {
+    background: #000000;
+}
+
+
+.listitem ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.listitem li {
+    display: inline-block;
+    margin: 15px;
+}
+
+.listitem a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    position: relative;
+    padding: 4px 0;
+}
+
+.listitem a::before {
+    content: "";
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #000000;
+    transition: 0.5s transform ease;
+    transform: scale3d(0, 1, 1);
+}
+
+.listitem a:hover::before {
+    transform: scale3d(1, 1, 1);
+}
+
+
+
+.menu-1 a:hover::before {
+    transform-origin: 0 50%;
+}
+
+
+.hero {
+    background-image: url(bag3\ \(1\).png);
+    background-size: cover;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.areatitle {
+    padding: 100px;
+    width: 40%;
+    margin-top: 1px;
+}
+
+.text-title p span {
+    color: #6886C5;
+}
+
+.text-title {
+    line-height: 70px;
+    color: #000000;
+    font-weight: bolder;
+    font-family: Poppins;
+    word-spacing: 10px;
+    font-size: 40px;
+    
+}
+.text-title  :hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+
+}
+
+
+.text-tagline {
+    font-family: poppins;
+    font-size: 1.em;
+    margin-top: 20px;
+    color: #999999;
+}
+
+.button-explore {
+    margin-top: 50px;
+}
+
+.btn-about {
+    background: #6886C5;
+    padding: 10px 30px;
+    color: #ffffff;
+    font-family: poppins;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+
+
+.btn-contact {
+    border: #6886C5 solid;
+    padding: 10px 25px;
+    color: #6886C5;
+    font-family: poppins;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.sosial {
+    font-size: 15px;
+    margin-top: 100px;
+    font-family: poppins;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.sosial a :hover{
+    transform: scale(1.3);
+    transition: 0.3s;
+
+}
+
+
+.area-image{
+    margin-top: -30px;
+    
+}
+
+.aboutme {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.abm {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.title-me {
+    font-family: poppins;
+    line-height: 50px;
+
+
+}
+
+.tit-me1 {
+    font-size: 40px;
+    color: #6886C5;
+
+}
+
+.tit-me2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.deskripsi-me {
+    margin-top: 30px;
+}
+
+.des-1 {
+    line-height: 25px;
+    font-family: poppins;
+    font-size: 17px;
+    color: #999999;
+}
+
+.button-ex {
+    margin-top: 30px;
+}
+
+.btn-ex {
+    border-radius: 10px;
+    border: #6886C5 solid;
+    font-family: poppins;
+    padding: 10px 25px;
+    color: #6886C5;
+    text-decoration: none;
+}
+
+.experience {
+    margin-top: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.title-ex {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    flex-direction: column;
+}
+
+.tit-ex1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.tit-ex1 p span {
+    color: #6886C5;
+}
+
+.tit-ex2 {
+    color: #999999;
+    height: 30px;
+}
+.box-ex{
+    display: flex;
+    
+    
+}
+
+
+.b-ex1 {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 275px;
+    height: 275px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 3px #0000004c;
+    margin: 30px;
+
+}
+
+.bo :hover{
+    transform: scale(1.1);
+    
+}
+
+
+.tit-exp{
+    margin-top: 5px;
+    font-size: 25px;
+    font-family: poppins;
+    color: #000000;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.tit-jum{
+    margin-top: 2px;
+    color: #999999;
+    font-size: 16px;
+    font-family: poppins;
+    transition: 0.5s;
+}
+.tit-des{
+    margin: 14px;
+    font-family: poppins;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.contact{
+    font-family: poppins ;
+    margin-top: 100px;
+    width: 100vw;
+    padding: 15px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+.card-contact{
+    color: #ffffff;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.t-con{
+    color: #ffffff;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.j-con{
+    font-size: 15px;
+}
+.j-con span{
+    color: #6886C5;
+}
+.d-con{
+    font-size: 35px;
+}
+
+.left{
+    border-radius: 10px;
+    width: 40vw;
+    height: 50vh;
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.con{
+    display: flex;
+    flex-direction: row;
+}
+    
+.imgc{
+    margin-right: 10px;
+}
+.descon{
+    font-size: 15px;
+}
+.right{
+    border-radius: 10px;
+    width: 40vw;
+    height: 50vh;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.chat2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.chat2 input{
+    
+    background: none;
+    border: solid 1px #ffffff;
+    margin: 5px;
+    padding: 12px;
+    width: 400px;
+   border-radius: 5px;
+    
+}
+.chat2 textarea{
+    font-family: poppins;
+    margin: 5px;
+    background: none;
+    border: #ffffff 1px solid;
+    color: #000000;
+    border-radius: 5px;
+    padding: 12px;
+    width: 400px;
+    
+}
+.chat2 button{
+    font-size: poppins;
+    background: none;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 12px 150px;
+    color: rgb(255, 255, 255);
+    border: solid 1px #ffffff;
+}
+
