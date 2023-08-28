@@ -22,7 +22,7 @@
 }
 
 .navbar {
-    
+    background-color: #ffffff8f;
     width: 100vw;
     height: 10vh;
     font-family: poppins;
@@ -32,7 +32,6 @@
 }
 
 .navbar-brand {
-
     padding-left: 90px;
     font-family: poppins;
     width: 40%;
