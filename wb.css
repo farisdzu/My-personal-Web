@@ -441,6 +441,7 @@
     margin: 5px;
     background: #f1f0f0;
     border: none;
+    border-bottom: #6a6a6a solid;
     color: #6a6a6a;
     border-radius: 15px;
     padding: 10px;
